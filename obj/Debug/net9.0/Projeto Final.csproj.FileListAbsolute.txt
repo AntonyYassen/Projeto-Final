@@ -1,0 +1,14 @@
+C:\C#\Projeto Final\bin\Debug\net9.0\Projeto Final.exe
+C:\C#\Projeto Final\bin\Debug\net9.0\Projeto Final.deps.json
+C:\C#\Projeto Final\bin\Debug\net9.0\Projeto Final.runtimeconfig.json
+C:\C#\Projeto Final\bin\Debug\net9.0\Projeto Final.dll
+C:\C#\Projeto Final\bin\Debug\net9.0\Projeto Final.pdb
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.AssemblyInfoInputs.cache
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.AssemblyInfo.cs
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.csproj.CoreCompileInputs.cache
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.dll
+C:\C#\Projeto Final\obj\Debug\net9.0\refint\Projeto Final.dll
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.pdb
+C:\C#\Projeto Final\obj\Debug\net9.0\Projeto Final.genruntimeconfig.cache
+C:\C#\Projeto Final\obj\Debug\net9.0\ref\Projeto Final.dll
