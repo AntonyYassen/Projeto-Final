@@ -18,13 +18,11 @@ public class ContratoAluguel
         DataInicio = dataInicio;
         DataFim = dataFim;
         ValorTotal = valorTotal;
-
-        // Marca veículo como indisponível
         Veiculo.Disponivel = false;
     }
 
     public override string ToString()
     {
-        return $"Contrato: {Cliente.Nome} alugou {Veiculo.Modelo} de {DataInicio:dd/MM/yyyy} até {DataFim:dd/MM/yyyy} - Valor: R${ValorTotal:F2}";
+        return $"Contrato: {Cliente.Nome} alugou {Veiculo.Modelo} de {DataInicio:dd/MM/yyyy} até {DataFim:dd/MM/yyyy} - R${ValorTotal:F2}";
     }
 }
