@@ -4,6 +4,8 @@ public class Moto : Veiculo
 {
     public int Cilindradas { get; set; }
 
+    public Moto() { }
+
     public Moto(string placa, string modelo, int ano, int cilindradas)
         : base(placa, modelo, ano)
     {
@@ -12,6 +14,6 @@ public class Moto : Veiculo
 
     public override void ExibirInfo()
     {
-        Console.WriteLine($"[Moto] {Modelo} - {Placa} ({Ano}) - {Cilindradas}cc - {(Disponivel ? "Disponível" : "Alugada")}");
+        Console.WriteLine($"[MOTO] {Modelo} | {Cilindradas}cc | Placa: {Placa} | Status: {(Disponivel ? "Disponível" : "Alugada")}");
     }
 }

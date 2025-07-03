@@ -1,8 +1,10 @@
-namespace SistemaAluguelVeiculos.Modelos;
+amespace SistemaAluguelVeiculos.Modelos;
 
 public class Carro : Veiculo
 {
     public int QuantidadePortas { get; set; }
+
+    public Carro() { }
 
     public Carro(string placa, string modelo, int ano, int quantidadePortas)
         : base(placa, modelo, ano)
@@ -12,6 +14,6 @@ public class Carro : Veiculo
 
     public override void ExibirInfo()
     {
-        Console.WriteLine($"[Carro] {Modelo} - {Placa} ({Ano}) - {QuantidadePortas} portas - {(Disponivel ? "Disponível" : "Alugado")}");
+        Console.WriteLine($"[CARRO] {Modelo} | Portas: {QuantidadePortas} | Placa: {Placa} | Status: {(Disponivel ? "Disponível" : "Alugado")}");
     }
 }
